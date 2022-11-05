@@ -18,6 +18,7 @@ function Home() {
   const [province, setProvince] = useState("");
   const [country, setCountry] = useState("Nepal");
 
+  // for error validation
   const [nameerr, setNameerr] = useState(null);
   const [emailerr, setEmailerr] = useState(null);
   const [phoneerr, setPhoneerr] = useState(null);
@@ -57,7 +58,7 @@ function Home() {
   };
 
   return (
-    <div className="md:w-[80%] w-[90%] m-auto mt-10 font-poppins font-bold">
+    <div className="md:w-[80%] w-[90%] m-auto my-10 font-poppins font-bold">
       <ToastContainer
         toastStyle={{
           fontFamily: "poppins",

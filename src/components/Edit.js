@@ -62,7 +62,7 @@ function Edit() {
     }
   };
   return (
-    <div className="md:w-[80%] w-[90%] m-auto mt-10 font-poppins font-bold">
+    <div className="md:w-[80%] w-[90%] m-auto my-10 font-poppins font-bold">
       <h5 className="text-4xl mb-3 font-medium text-gray-900 dark:text-black">
         Edit the user with id : &nbsp;
         <span className="underline">{to_update_data.id}</span>
