@@ -5,6 +5,20 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Users from "./User";
 
+/* 
+After you run it for the first time you can comment the above like 
+
+import Users from "./User";
+
+ and 
+
+Uncomment the like below , inside of Home function
+
+// let Users = JSON.parse(localStorage.getItem("AllUser"));
+
+
+*/
+
 function Home() {
   let history = useNavigate();
   // let Users = JSON.parse(localStorage.getItem("AllUser"));
